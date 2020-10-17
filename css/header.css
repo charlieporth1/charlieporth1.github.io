@@ -1,7 +1,7 @@
 
 header {
     overflow: hidden;
-    margin-top: -30px;
+    margin: -10px -10px 0 -10px;
     grid-column: 1 / 5;
     grid-row: 1 / 2;
     background-image: linear-gradient(rgba(000, 100, 200, 0.5), rgba(225, 225, 225, 0.7)), url("../img/CTP_Development-website-default-header.jpg");

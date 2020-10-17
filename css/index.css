@@ -27,7 +27,7 @@
 
 .charlies-links-div {
     grid-column: 4 / 3;
-    grid-row: 5 / 5;
+    grid-row: 4 / 5;
     flex-direction: column;
     flex: 1;
     display: flex;
