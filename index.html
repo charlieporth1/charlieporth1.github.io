@@ -5,44 +5,75 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest" crossorigin="use-credentials">
+    <link crossorigin="anonymous" rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link crossorigin="anonymous" href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script type="text/javascript"  src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript"  src="js/plugins.js"></script>
+    <script type="text/javascript"  src="js/main.js"></script>
+    <script type="text/javascript"  src="js/includeHTML.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
-<body>
-<h1>Sample CTP Development Blog</h1>
-<h6>Written in HTML, JavaScript and CSS</h6>
+
+<body onload="includeHTML();">
+<div class="sticky" w3-include-html="navigation/navbar.html"></div>
+<header>
+    <h1>Sample CTP Development Blog</h1>
+    <h4>Written in HTML, JavaScript and CSS</h4>
+    <h6>By Charles Timothy Porth</h6>
+</header>
+<div class="p-txt-root-index">
 <p>Hello world! This is HTML5 website with a little bit of JavaScript and CSS.
-    This is a raw website written by Charles Porth from CTP Development</p>
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal"
-     data-theme="dark" data-vanity="charlieporth"><a class="LI-simple-link"
-                                                     href='https://www.linkedin.com/in/charlieporth?trk=profile-badge'>Charles
+    This is a raw website written by Charles Porth from CTP Development. It includes links to my websites and my
+    Linkedin profiles</p>
+</div>
+<div class="LI-profile-badge linkedin-div" data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal"
+     data-theme="dark" data-vanity="charlieporth">
+    <a class="LI-simple-link"
+       href='https://www.linkedin.com/in/charlieporth?trk=profile-badge'>Charles
     Porth</a></div>
-<img style="align-self: center" src="img/Charles_Timothy_Porth_at_the_Minnesota_Cup_hosted_by_the_University_of_Minnesota_MN.jpg"
+<div class="center-img-of-ctp">
+    <img src="img/Charles_Timothy_Porth_at_the_Minnesota_Cup_hosted_by_the_University_of_Minnesota_MN.jpg"
          alt="Charles Timothy Porth at the Minnesota Cup hosted by the University of Minnesota MN"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<!--        https://www.linkedin.com/in/charlieporth -->
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function () {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-</script>
+</div>
+<div class="charlies-links-div">
+    <a
+       href='https://www.ctptech.dev'>Charles
+        Porth's Portfolio</a>
+    <a
+       href='https://charlie-tech.ctptech.dev'>Charles
+        Porth's website from freelancing IT support</a>
+    <a
+       href='https://otih.ctptech.dev'>Charles
+        Porth's website from 6th grade</a>
+</div>
 </body>
+<footer>
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+    <!--        https://www.linkedin.com/in/charlieporth -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X');
+        ga('send', 'pageview');
+    </script>
+
+</footer>
 </html>

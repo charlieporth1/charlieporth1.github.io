@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b992c704-3549-4ad2-a66e-de1bf8352f78" name="Default Changelist" comment="" />
+    <list default="true" id="b992c704-3549-4ad2-a66e-de1bf8352f78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon_io/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon_io/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon_io/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon_io/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon_io/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon_io/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon_io/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j0SwgEMsX7rjrYF5NPDocjZovU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,7 +51,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -54,6 +91,12 @@
       <updated>1602939756865</updated>
       <workItem from="1602939760219" duration="313000" />
       <workItem from="1602940093546" duration="4173000" />
+      <workItem from="1602952902879" duration="1015000" />
+      <workItem from="1602954291689" duration="622000" />
+      <workItem from="1602955194890" duration="5423000" />
+      <workItem from="1602960839236" duration="3990000" />
+      <workItem from="1602965077273" duration="3252000" />
+      <workItem from="1602968384681" duration="7906000" />
     </task>
     <servers />
   </component>
