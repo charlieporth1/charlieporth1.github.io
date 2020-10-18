@@ -1,9 +1,13 @@
+@import "font-default.css";
 #navbar {
     overflow: hidden;
     background-color: rgba(100, 100, 100, .45);
     z-index: 99;
     min-width: 100%;
     margin-left: -10px;
+}
+#navbar:hover {
+    background-color: rgba(150, 150, 150, .45);
 }
 #navbar a {
     float: left;
@@ -12,4 +16,10 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+}
+#navbar a:visited {
+    color: #105cb6;
+}
+#navbar a:hover {
+    color: #6f97dd;
 }

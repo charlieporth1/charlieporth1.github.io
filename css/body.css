@@ -1,0 +1,9 @@
+.body {
+    z-index: -99;
+    min-width: 100%;
+    min-height: 100%;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    display: flex;
+    background: #585858;
+}

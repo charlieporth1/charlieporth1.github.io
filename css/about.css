@@ -1,0 +1,7 @@
+.p-txt-root-about {
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+}
+header {
+    margin-right: -110px;
+}

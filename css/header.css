@@ -1,4 +1,4 @@
-
+@import "font-default.css";
 header {
     overflow: hidden;
     margin: -10px -10px 0 -10px;
@@ -12,21 +12,14 @@ header {
 }
 header h1 {
     margin-top: 100px;
-    font-family: Roboto, sans-serif;
     font-size: 4em;
     text-align: center;
-    color: white;
 }
 header h4 {
-    font-family: Roboto, sans-serif;
     text-align: center;
     font-size: 1em;
-    color: white;
 }
 header h6 {
-    font-family: Roboto, sans-serif;
     font-size: 1em;
     text-align: center;
-    color: white;
-
 }

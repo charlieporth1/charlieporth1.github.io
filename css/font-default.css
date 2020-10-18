@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css?family=Roboto');
+    /*src: url('//localhost/Roboto/Roboto-Light.tff') format('truetype');*/
+}
+font {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+basefont {
+    font-family: Roboto, sans-serif;
+    color: white;
+}

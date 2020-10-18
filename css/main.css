@@ -1,11 +1,13 @@
-
+@import "body.css";
+@import "font-default.css";
 html,
 button,
 input,
 select,
 textarea {
-    color: white;
+    color:white;
 }
+
 html {
     font-family: Roboto, sans-serif;
     font-size: 1em;
@@ -21,49 +23,32 @@ html {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
 }
+
 /* Page content */
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
     body {
-        z-index: -99;
-        min-width: 100%;
-        min-height: 100%;
-        font-family: Roboto, sans-serif;
-        font-size: 1em;
-        display: flex;
         grid-template-columns: 100px auto auto auto auto;
         grid-template-rows: repeat(auto-fit, auto);
+        @import "body";
     }
 }
+
 @media screen and (min-width: 36em) {
-    body  {
-        z-index: -99;
-        min-width: 100%;
-        min-height: 100%;
-        font-family: Roboto, sans-serif;
-        font-size: 1em;
-        display: grid;
+    body {
         grid-template-columns: auto auto auto auto auto;
         grid-template-rows: repeat(auto-fit, auto);
-        background: #f0f0f0;
-
+        @import "body";
     }
 }
+
 @media screen and (min-width: 400em) {
-    body  {
-        z-index: -99;
-        min-width: 100%;
-        min-height: 100%;
-        font-family: Roboto, sans-serif;
-        font-size: 1em;
-        display: grid;
+    body {
         grid-template-columns: 100px auto auto auto auto;
         grid-template-rows: repeat(auto-fit, auto);
-        background: #f0f0f0;
-
+        @import "body";
     }
 }
-
 
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -89,8 +74,6 @@ html {
 textarea {
     resize: vertical;
 }
-
-
 
 
 @media print,
@@ -160,6 +143,7 @@ textarea {
         page-break-after: avoid;
     }
 }
+
 footer {
     grid-column: 1 / 5;
     grid-row: 6 / 6;
