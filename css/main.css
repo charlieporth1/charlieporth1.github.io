@@ -1,11 +1,12 @@
 @import "body.css";
 @import "font-default.css";
+
 html,
 button,
 input,
 select,
 textarea {
-    color:white;
+    @import "font-default.css";
 }
 
 html {
@@ -25,28 +26,33 @@ html {
 }
 
 /* Page content */
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 35em)  {
     /* Style adjustments for viewports that meet the condition */
     body {
-        grid-template-columns: 100px auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, auto);
         @import "body";
+        display: flex;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-rows: repeat(auto-fit, auto);
     }
 }
 
 @media screen and (min-width: 36em) {
-    body {
-        grid-template-columns: auto auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, auto);
+    @media screen and (max-width: 50em) {
+        body {
         @import "body";
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-rows: repeat(auto-fit, auto);
+        }
     }
 }
 
-@media screen and (min-width: 400em) {
+@media screen and (min-width: 51em) {
     body {
+        @import "body";
+        display: grid;
         grid-template-columns: 100px auto auto auto auto;
         grid-template-rows: repeat(auto-fit, auto);
-        @import "body";
     }
 }
 
