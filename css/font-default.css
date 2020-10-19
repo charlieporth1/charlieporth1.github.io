@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('https://fonts.googleapis.com/css?family=Roboto');
-    /*src: url('//localhost/Roboto/Roboto-Light.tff') format('truetype');*/
+    src: url('https://fonts.googleapis.com/css?family=Roboto') format('css');
+    src: url('../Roboto/Roboto-Regular.ttf') format('truetype');
 }
 font {
     font-family: Roboto, sans-serif;
@@ -10,4 +10,14 @@ font {
 basefont {
     font-family: Roboto, sans-serif;
     color: white;
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('https://fonts.googleapis.com/css?family=Roboto') format('css');
+    src: url('../Roboto/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('https://fonts.googleapis.com/css?family=Roboto') format('css');
+    src: url('../Roboto/Roboto-Light.ttf') format('truetype');
 }

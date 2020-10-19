@@ -1,8 +1,39 @@
-.body {
+@import "font-default.css";
+body {
     z-index: -99;
     min-width: 100%;
     min-height: 100%;
     font-family: Roboto, sans-serif;
     font-size: 1em;
     background: #585858;
+}
+p {
+    font-family: Roboto, sans-serif;
+}
+a {
+    font-family: Roboto, sans-serif;
+}
+span {
+    font-family: Roboto, sans-serif;
+}
+div {
+    font-family: Roboto, sans-serif;
+}
+h1 {
+    font-family: Roboto, sans-serif;
+}
+h2 {
+    font-family: Roboto, sans-serif;
+}
+h3 {
+    font-family: Roboto, sans-serif;
+}
+h4 {
+    font-family: Roboto, sans-serif;
+}
+h5 {
+    font-family: Roboto, sans-serif;
+}
+h6 {
+    font-family: Roboto, sans-serif;
 }

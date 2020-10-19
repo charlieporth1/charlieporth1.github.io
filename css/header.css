@@ -11,15 +11,19 @@ header {
 
 }
 header h1 {
+    font-family: Roboto, sans-serif;
     margin-top: 100px;
     font-size: 4em;
     text-align: center;
 }
 header h4 {
+    font-family: RobotoBold, sans-serif;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 header h6 {
+    font-family: Roboto, sans-serif;
     font-size: 1em;
     text-align: center;
+    color: black;
 }

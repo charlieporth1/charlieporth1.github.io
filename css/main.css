@@ -1,12 +1,12 @@
-@import "body.css";
 @import "font-default.css";
+@import "body.css";
 
 html,
 button,
 input,
 select,
 textarea {
-    @import "font-default.css";
+    font-family: Roboto, sans-serif;
 }
 
 html {
@@ -26,35 +26,32 @@ html {
 }
 
 /* Page content */
-@media only screen and (max-width: 35em)  {
+@media only screen and (min-width: 540px)  {
     /* Style adjustments for viewports that meet the condition */
     body {
-        @import "body";
-        display: flex;
+
+        display: flex !important;
+        grid-column: span;
         grid-template-columns: auto auto auto auto auto;
         grid-template-rows: repeat(auto-fit, auto);
     }
-}
-
-@media screen and (min-width: 36em) {
-    @media screen and (max-width: 50em) {
+    @media screen and (max-width: 1000px) {
         body {
-        @import "body";
             display: grid;
             grid-template-columns: auto auto auto auto auto;
             grid-template-rows: repeat(auto-fit, auto);
         }
     }
-}
-
-@media screen and (min-width: 51em) {
-    body {
-        @import "body";
-        display: grid;
-        grid-template-columns: 100px auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, auto);
+    @media screen and (min-width: 1000px) {
+        body {
+            display: grid;
+            grid-template-columns: 100px auto auto auto auto;
+            grid-template-rows: repeat(auto-fit, auto);
+        }
     }
 }
+
+
 
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */

@@ -1,6 +1,6 @@
 @import "font-default.css";
 .linkedin-div {
-    grid-column: 1 / 2;
+    grid-column: 1 / 3;
     grid-row: 2 / 5;
     margin: 10px;
 }
@@ -13,6 +13,7 @@ figure {
 }
 
 figcaption {
+    font-family: Roboto, sans-serif;
     font-style: italic;
     padding: 2px;
     text-align: center;
@@ -25,7 +26,6 @@ figcaption {
     width: 400px;
     height: 700px;
     margin: 10px;
-
 }
 
 .center-img-of-ctp:hover {
@@ -34,12 +34,12 @@ figcaption {
 
 .p-txt-root-index {
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    width: auto;
+    grid-row: 2 / 4;
+    text-align: left;
 }
 
 .charlies-links-div {
-    grid-column: 3 / 4;
+    grid-column: 2 / 4;
     grid-row: 4 / 5;
     flex-direction: column;
     flex: 1;

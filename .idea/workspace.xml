@@ -3,10 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="b992c704-3549-4ad2-a66e-de1bf8352f78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/font-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/font-default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +99,8 @@
       <workItem from="1602960839236" duration="3990000" />
       <workItem from="1602965077273" duration="3252000" />
       <workItem from="1602968384681" duration="9373000" />
-      <workItem from="1603029290721" duration="8649000" />
+      <workItem from="1603029290721" duration="11012000" />
+      <workItem from="1603117299798" duration="979000" />
     </task>
     <servers />
   </component>
