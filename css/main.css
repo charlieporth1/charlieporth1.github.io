@@ -26,28 +26,34 @@ html {
 }
 
 /* Page content */
-@media only screen and (min-width: 540px)  {
+@media screen and (max-width: 540px)  {
     /* Style adjustments for viewports that meet the condition */
     body {
-
         display: flex !important;
-        grid-column: span;
-        grid-template-columns: auto auto auto auto auto;
-        grid-template-rows: repeat(auto-fit, auto);
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        grid-template-columns: minmax(0, 500px) auto;
+        grid-auto-rows: auto;
     }
-    @media screen and (max-width: 1000px) {
-        body {
-            display: grid;
-            grid-template-columns: auto auto auto auto auto;
-            grid-template-rows: repeat(auto-fit, auto);
-        }
+
+}
+@media screen and (min-width: 540px) and (max-width: 1000px) {
+    body {
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-auto-rows: auto;
     }
-    @media screen and (min-width: 1000px) {
-        body {
-            display: grid;
-            grid-template-columns: 100px auto auto auto auto;
-            grid-template-rows: repeat(auto-fit, auto);
-        }
+
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        display: grid;
+        grid-template-columns: 100px repeat(4, auto);
+        grid-auto-rows: auto;
     }
 }
 

@@ -3,6 +3,7 @@
     grid-column: 1 / 3;
     grid-row: 2 / 5;
     margin: 10px;
+    width: 300px;
 }
 figure {
     /*border: 1px #cccccc solid;*/
@@ -35,11 +36,10 @@ figcaption {
 .p-txt-root-index {
     grid-column: 3 / 4;
     grid-row: 2 / 4;
-    text-align: left;
 }
 
 .charlies-links-div {
-    grid-column: 2 / 4;
+    grid-column: 3 / 4;
     grid-row: 4 / 5;
     flex-direction: column;
     flex: 1;
