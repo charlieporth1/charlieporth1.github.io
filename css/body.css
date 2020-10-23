@@ -7,12 +7,12 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 1em;
     background: #585858;
-/*    Color 1 */
+    /*    Color 1 */
 }
 
 /* Page content options*/
 /*Phones*/
-@media screen and (max-width: 540px)  {
+@media screen and (max-width: 540px) {
     /* Style adjustments for viewports that meet the condition */
     body {
         display: flex !important;
@@ -20,7 +20,8 @@ body {
         grid-template-columns: 25px auto 25px;
         grid-auto-rows: auto;
     }
-    img, p, h1, div,a, input {
+
+    img, p, h1, div, a, input {
         justify-content: center;
         justify-items: center;
         align-items: center;
@@ -28,6 +29,7 @@ body {
     }
 
 }
+
 /*Tablets*/
 @media screen and (min-width: 540px) and (max-width: 768px) {
     body {
@@ -38,6 +40,7 @@ body {
     }
 
 }
+
 /*Desktop or Laptop*/
 @media screen and (min-width: 768px) {
     body {
@@ -47,6 +50,7 @@ body {
         grid-auto-rows: auto;
     }
 }
+
 footer {
     text-wrap: normal;
     font-family: Roboto, sans-serif;

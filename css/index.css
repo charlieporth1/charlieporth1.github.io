@@ -1,10 +1,12 @@
 @import "font-default.css";
+
 .linkedin-div {
     grid-column: 1 / 3;
     grid-row: 2 / 5;
     width: 330px;
 
 }
+
 figure {
     padding: 4px;
     margin: auto;
@@ -19,6 +21,7 @@ figcaption {
     text-align: center;
     color: whitesmoke;
 }
+
 .center-img-of-ctp {
     grid-column: 4 / 5;
     grid-row: 2 / 5;

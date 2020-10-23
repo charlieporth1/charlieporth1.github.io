@@ -4,7 +4,7 @@
     /*overflow: hidden;*/
     /*Color 4*/
     background-color: #222;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 99;
     min-width: 100%;
     margin-left: -10px;
@@ -14,7 +14,7 @@
 #navbar:hover {
     /*Color 5*/
     background-color: #484848;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 #navbar a {
@@ -37,6 +37,7 @@
     color: #6f97dd;
 
 }
+
 .dropdown {
     float: left;
     overflow: hidden;
@@ -61,7 +62,7 @@
     position: absolute;
     min-width: 160px;
     background-color: #505050;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 

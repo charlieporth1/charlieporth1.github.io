@@ -2,6 +2,7 @@
 @import "font-default.css";
 @import "body.css";
 @import "navbar.css";
+
 html {
     font-family: Roboto, sans-serif;
     font-size: 1em;
@@ -29,11 +30,13 @@ html {
         padding-top: 100px;
     }
 }
+
 @media (min-width: 540px) {
     .sticky + body {
         padding-top: 60px;
     }
 }
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -55,6 +58,7 @@ textarea {
 img {
     border-radius: 10px;
 }
+
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
