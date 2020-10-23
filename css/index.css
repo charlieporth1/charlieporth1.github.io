@@ -2,11 +2,10 @@
 .linkedin-div {
     grid-column: 1 / 3;
     grid-row: 2 / 5;
-    margin: 10px;
-    width: 300px;
+    width: 330px;
+
 }
 figure {
-    /*border: 1px #cccccc solid;*/
     padding: 4px;
     margin: auto;
     grid-column: 4 / 5;
@@ -18,15 +17,16 @@ figcaption {
     font-style: italic;
     padding: 2px;
     text-align: center;
+    color: whitesmoke;
 }
 .center-img-of-ctp {
     grid-column: 4 / 5;
     grid-row: 2 / 5;
     border-radius: 10px;
     overflow: hidden;
+    object-fit: cover;
     width: 400px;
     height: 700px;
-    margin: 10px;
 }
 
 .center-img-of-ctp:hover {
@@ -45,12 +45,3 @@ figcaption {
     flex: 1;
     display: flex;
 }
-/*.charlies-links-div a {*/
-/*    color: #b3d4fc;*/
-/*}*/
-/*.charlies-links-div a:visited {*/
-/*    color: #105cb6;*/
-/*}*/
-/*.charlies-links-div a:hover {*/
-/*    color: #6f97dd;*/
-/*}*/

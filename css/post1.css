@@ -1,0 +1,18 @@
+@import "font-default.css";
+.p-txt-root-post1 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    padding: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.social-media-buttons {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    grid-column: 1 / 4;
+    grid-row: 3 / 5;
+}

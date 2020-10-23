@@ -1,39 +1,56 @@
 @import "font-default.css";
+/*Root*/
 body {
     z-index: -99;
-    min-width: 100%;
     min-height: 100%;
+    min-width: 100%;
     font-family: Roboto, sans-serif;
     font-size: 1em;
     background: #585858;
+/*    Color 1 */
 }
-p {
-    font-family: Roboto, sans-serif;
+
+/* Page content options*/
+/*Phones*/
+@media screen and (max-width: 540px)  {
+    /* Style adjustments for viewports that meet the condition */
+    body {
+        display: flex !important;
+        flex-direction: column;
+        grid-template-columns: 25px auto 25px;
+        grid-auto-rows: auto;
+    }
+    img, p, h1, div,a, input {
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+    }
+
 }
-a {
-    font-family: Roboto, sans-serif;
+/*Tablets*/
+@media screen and (min-width: 540px) and (max-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: 25px repeat(3, auto) 25px;
+        grid-auto-rows: auto;
+        grid-gap: 25px;
+    }
+
 }
-span {
-    font-family: Roboto, sans-serif;
+/*Desktop or Laptop*/
+@media screen and (min-width: 768px) {
+    body {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 25px repeat(5, auto) 25px;
+        grid-auto-rows: auto;
+    }
 }
-div {
+footer {
+    text-wrap: normal;
     font-family: Roboto, sans-serif;
-}
-h1 {
-    font-family: Roboto, sans-serif;
-}
-h2 {
-    font-family: Roboto, sans-serif;
-}
-h3 {
-    font-family: Roboto, sans-serif;
-}
-h4 {
-    font-family: Roboto, sans-serif;
-}
-h5 {
-    font-family: Roboto, sans-serif;
-}
-h6 {
-    font-family: Roboto, sans-serif;
+    text-align: center;
+    grid-column: 1 / 5;
+    grid-row: 98 / 99;
 }

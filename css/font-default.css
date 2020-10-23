@@ -1,3 +1,4 @@
+/*This should never be imported direclty to the website html only to the css files*/
 @font-face {
     font-family: 'Roboto';
     src: url('https://fonts.googleapis.com/css?family=Roboto') format('css');
@@ -5,12 +6,15 @@
 }
 font {
     font-family: Roboto, sans-serif;
+    /*Color 8*/
     color: white;
 }
 basefont {
     font-family: Roboto, sans-serif;
+    /*Color*/
     color: white;
 }
+
 @font-face {
     font-family: 'RobotoBold';
     src: url('https://fonts.googleapis.com/css?family=Roboto') format('css');
@@ -20,4 +24,28 @@ basefont {
     font-family: 'RobotoLight';
     src: url('https://fonts.googleapis.com/css?family=Roboto') format('css');
     src: url('../Roboto/Roboto-Light.ttf') format('truetype');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+textarea,
+text,
+span,
+figcaption,
+button,
+caption,
+input,
+label,
+select,
+html,
+p {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+a {
+    font-family: Roboto, sans-serif;
 }

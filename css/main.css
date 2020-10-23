@@ -1,18 +1,13 @@
+/*Root CSS File on all pages*/
 @import "font-default.css";
 @import "body.css";
-
-html,
-button,
-input,
-select,
-textarea {
-    font-family: Roboto, sans-serif;
-}
-
+@import "navbar.css";
 html {
     font-family: Roboto, sans-serif;
     font-size: 1em;
     line-height: 1.4;
+    min-width: 320px;
+    width: 100%;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -20,51 +15,25 @@ html {
     position: fixed;
     top: 0;
     z-index: 99;
-    width: 100%;
+    min-width: 100%;
     grid-column: 1 / 5;
     grid-row: 1 / 2;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
 }
-
-/* Page content */
-@media screen and (max-width: 540px)  {
-    /* Style adjustments for viewports that meet the condition */
-    body {
-        display: flex !important;
-        flex-direction: column;
-        justify-content: center;
-        justify-items: center;
-        grid-template-columns: minmax(0, 500px) auto;
-        grid-auto-rows: auto;
-    }
-
-}
-@media screen and (min-width: 540px) and (max-width: 1000px) {
-    body {
-        justify-content: center;
-        justify-items: center;
-        display: grid;
-        grid-template-columns: repeat(5, auto);
-        grid-auto-rows: auto;
-    }
-
-}
-
-@media screen and (min-width: 1000px) {
-    body {
-        display: grid;
-        grid-template-columns: 100px repeat(4, auto);
-        grid-auto-rows: auto;
-    }
-}
-
-
-
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + body {
-    padding-top: 60px;
+@media (max-width: 540px) {
+    .sticky + body {
+        padding-top: 100px;
+    }
 }
-
+@media (min-width: 540px) {
+    .sticky + body {
+        padding-top: 60px;
+    }
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -79,12 +48,13 @@ html {
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
     resize: vertical;
 }
 
-
+img {
+    border-radius: 10px;
+}
 @media print,
 (-o-min-device-pixel-ratio: 5/4),
 (-webkit-min-device-pixel-ratio: 1.25),
@@ -147,10 +117,10 @@ textarea {
         widows: 3;
     }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+    /*h2,*/
+    /*h3 {*/
+    /*    page-break-after: avoid;*/
+    /*}*/
 }
 
 footer {
